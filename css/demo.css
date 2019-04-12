@@ -1,0 +1,161 @@
+body{
+	margin:0;
+  padding:0;
+	background: url(../images/fond.jpg)no-repeat center center fixed;
+  background-size: cover;
+}
+
+.bouton {
+list-style-type: none;
+ display: flex;
+ justify-content: space-between;
+ padding : 0;
+}
+
+.bouton li {
+	max-width: 8vh;
+}
+
+.bouton img {
+	width: 100%;
+}
+
+.image-container {
+	margin: 22px;
+}
+
+.image-container img {
+		width: 20vh;
+}
+
+.bateau {
+	max-width: 10%;
+	position: absolute;
+}
+
+.bateau img {
+	width: 100%;
+}
+
+
+.view {
+	height: 62vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
+.haut,
+.bas {
+	display: flex;
+	justify-content: space-around;
+ 	align-items: center;
+}
+
+.bas .missionnaires {
+	display: flex;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.bas .cannibales {
+	display: flex;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.cannibales,
+.missionnaires {
+	display: flex;
+	flex-basis: 400px;
+	flex-shrink: 1;
+	justify-content: center;
+}
+
+.haut{
+	margin-top: 6vh;
+}
+
+.choix {
+list-style-type: none;
+ display: flex;
+ justify-content: space-between;
+ justify-content: center;
+ justify-content: align;
+ padding : 0;
+ margin:0;
+}
+
+.choix li {
+	max-width: 22vh;
+}
+
+.choix img {
+	width: 100%;
+}
+
+
+
+/*
+.choix {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.choix a {
+  display: block;
+  border: 1px solid red;
+  max-width:30px;
+}
+
+
+
+.view img {
+	max-width: 200px;
+	display: block;
+}
+
+
+.haut {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+	margin-top:80px;
+}
+
+.haut img {
+  display: block;
+  border: 1px solid red;
+  max-width:100px;
+}
+
+.bas {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+	margin-top:160px;
+	margin-bottom:80px;
+}
+
+.bas img {
+  display: block;
+  border: 1px solid red;
+  max-width:100px;
+}
+
+.cannibales {
+	display: flex;
+}
+
+.missionaires {
+	display: flex;
+}
+
+footer{
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 0px;
+}
+*/
